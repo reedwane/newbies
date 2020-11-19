@@ -1,0 +1,123 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(../images/img2.jfif);
+    padding: 5%;
+    width: 350px;
+    border-style: solid rgb(22, 22, 22) 5px;
+    margin: 0 auto;
+    font-family: Karla, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.join {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    box-sizing: border-box;
+    padding: 5%;
+    color: hsl(218, 22%, 67%);
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 5px 20px 5px black;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+
+}
+
+.join h3{
+    color: hsl(71, 73%, 54%);
+}
+
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    box-sizing: border-box;
+    padding: 10%;
+    width: 80%;
+    height: 40%;
+    line-height: 200%;
+    box-shadow: 5px 0px 5px black;
+
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: rgb(255, 255, 255);
+    padding: 4%;
+    width: 100%;
+    margin: 0 auto;
+    border-style: none;
+    border-radius: 5%;
+    box-shadow: 2px 5px 5px rgb(63, 58, 58);
+    transition: background-color .2s ease-in .2s, border-style .3s linear .3s,
+            box-shadow .2s ease-in .2s;
+}
+button:hover{
+    background-color: hsla(71, 73%, 54%, 0.719);
+    border-style: none;
+    box-shadow: 10px 10px 20px rgb(63, 58, 58);
+}
+button:active{
+    background-color: hsla(71, 73%, 54%, 0.719);
+    border-style: none; 
+      
+}
+
+
+#fee{
+    font-size: 200%;
+    font-weight: 800;
+}
+#per {
+    font-size: 80%;
+    position: relative;
+    top: -7px;
+    opacity: .8;
+}
+
+
+.right {
+    background-color: hsla(179, 62%, 43%, 0.815);
+    color: hsl(204, 43%, 93%);
+    padding: 7%;
+    width: 80%;
+    height: 40%;
+    box-sizing: border-box;
+    line-height: 120%;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 5px -1px 5px black;
+
+}
+
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */
