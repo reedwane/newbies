@@ -1,0 +1,79 @@
+header{
+    font-family: sans-serif;
+    background-color: rgba(148, 87, 160, 0.685);
+    font-variant: small-caps;
+    line-height: 150%;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+header, footer{
+    background: rgba(148, 87, 160, 0.685);
+    background: -webkit-linear-gradient(rgb(109, 163, 245) 0%, rgba(0, 255, 234, 0.822) 100%);
+    background: -ms-linear-gradient(rgb(109, 163, 245) 0%, rgba(0, 255, 234, 0.822) 100%);
+}
+h1{
+    text-align: center;
+    line-height: 150%;
+}
+nav{
+    font-variant: small-caps;
+    font-size: 150%;
+}
+
+nav a{
+    display: inline-block;
+    width: 22%;
+    background: rgb(247, 246, 246);
+}
+body{
+    background-color: rgb(232, 241, 241);
+    font-size: 100%;
+    margin: 4%;
+}
+h2{
+    background-color: rgb(31, 231, 214);
+    color: rgb(15, 15, 15);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*#food{
+    background-color: rgb(197, 176, 81);
+    line-height: 150%;
+    width: 200px;
+    display: table;
+    clear: both;
+    overflow: scroll;
+}*/
+/* p{
+    background-color: rgb(202, 37, 142);
+}*/
+
+footer{
+    clear: both;
+}
+ul{
+    font-family
+}
+
+details{
+    font-style: italic;
+}
+
+summary{
+    font-style: normal;
+}
+.half{
+    width: 45%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+}
+.whole{
+    clear: both;
+}
+img{
+    width: 75px;
+}
