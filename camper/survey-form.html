@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>FCC survey form</title>
+    </head>
+
+    <body>
+        <h1 id="title">Mock Survey</h1>
+        <p id="description">I just wanna run the tests</p>
+
+        <form action="POST" id="survey-form">
+            <label for="name" id="name-label">fullname</label>
+            <input type="text" required pattern="[A-Za-z]{1,32}" name="fullname" id="name" pattern="/\w/ig" placeholder="fullname"> <br><br>
+            
+            <label for="email" id="email-label">email</label>
+            <input type="email" id="email" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="email"> <br><br>
+            <label for="number" id="number-label">number</label>
+            <input type="number" required id="number" placeholder="phone" min="1" max="10"> <br><br>
+
+
+            <label for="dropdown">alphabets</label>
+            <select name="alphabets" id="dropdown">
+                <option value="hay">a</option>
+                <option value="bee">b</option>
+                <option value="cee">c</option>
+            </select>
+ 
+            <input type="radio" name="fruits" value="banana" id="">banana <br>
+            <input type="radio" name="fruits" value="pawpaw" id="">pawpaw <br>
+            <input type="radio" name="food" value="beans" id="">beans <br>
+            <input type="radio" name="food" value="yam" id="">yam <br>
+            
+            <input type="checkbox" name="sweet" id="lacova" value="lacova">lacova <br>
+            <input type="checkbox" name="sweet" id="kopico" value="kopico">kopico <br>
+
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <input type="submit" id="submit">
+        </form>
+    </body>
+
+</html>
